@@ -1,4 +1,3 @@
-print("sujal")
-# n=int(input("enter the number"))
-# print(n)
-# print(type(n))
+mystack.push("A")
+# mystack.push("B")
+# mystack.push("C")
