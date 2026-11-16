@@ -14,3 +14,5 @@ print("After the poping element",queue)
 isEmpty=not bool(queue)
 
 print("Queue is Empty",isEmpty)
+
+print("Queue length",len(queue))
