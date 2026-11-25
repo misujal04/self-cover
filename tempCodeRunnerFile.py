@@ -1,6 +1,11 @@
-sttack.push(10)
-# sttack.push(20)
-# sttack.push(30)
-# sttack.push(40)
-# sttack.push(50)
-# sttack.traverse()
+def outer(func):
+#     def inner(*args):
+#         print("start")
+#         func(*args)
+#         print("end")
+#     return inner
+
+# @outer
+# def show(a,b):
+#     print( a+b)
+# show(2,4)

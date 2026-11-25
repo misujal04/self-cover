@@ -1,0 +1,38 @@
+# def num(a, b, c = 3, d= 54):
+#     return a+b+c+d
+# print(num(2,5,10,d=5))
+
+
+# def show(*name):
+#     print(name)
+# show('sujal',"sahil","shivam")
+
+
+# print(show('sujal', 'sahil', 1))j
+# print(show('sujal', 'sahil', 1)[0])
+# def show(*num):
+#     total=0
+#     for i in num:
+#         total=total+i
+#     print(total)
+# num=(input("Enter the numbers")split())
+# show(num)
+
+
+# def show(**info):
+#     print("Name is",info["name"])
+#     print("age",info["age"])
+#     print(info)
+# show(name="Sujal",age="22")
+
+def show(*sal,**info):
+    for i in sal:
+        total=0
+        total=total+i
+    print("salary is",total)
+    print("Name is ",info["Name"])
+    print("Age is ",info["age"])
+    print("Company is ",info["Company"])
+
+show(sal=(10000,20000,30000,40000,50000),info={"Name":"Sujal","Age":20,"Company":"Amazon"}
+    )
