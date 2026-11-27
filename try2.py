@@ -1,10 +1,10 @@
-score = 10  # Global variable
+class Student:
+    def display(self,name,age,course):
+        print("Name is ",name)
+        print("Age is ",age)
+        print("Course is ",course)
 
-def add_points():
-    #global score
-    #score=score+10
-    print(score)
-   
-add_points()
-print(score)  # Output: 15
-
+s3=s2=s1=Student()
+s1.display("Sujal",22,"Mca")
+s2.display("Rahul",22,"MBA")
+s3.display("Sonal",59,"cue")
